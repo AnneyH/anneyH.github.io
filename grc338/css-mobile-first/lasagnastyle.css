@@ -12,6 +12,7 @@ body {
 	color: rgb(0,0,0);  
 	line-height: 250%; 	
 	font-family: Poppins, serif;
+    font-weight: 500;
 }
 
 header {
