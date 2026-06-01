@@ -415,7 +415,7 @@ div.newsletter h2{
     body {
         background-color:#2D2D2A;
     }
-    nav ul li a, figcaption, article.dark h2, article.dark p, div.home-container h2, div.home-container p, aside.main section h2, aside.main section p, footer p.footer, label, section.personal-info h3, section.interests h3{
+    nav ul li a, figcaption, h2, p, div.home-container h2, div.home-container p, aside.main section h2, aside.main section p, footer p.footer, label, section.personal-info h3, section.interests h3{
         color:#ebece9;
     }
 
