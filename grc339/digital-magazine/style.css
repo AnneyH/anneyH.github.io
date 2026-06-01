@@ -22,6 +22,12 @@
         font-weight:bold;
 
     }
+
+
+    nav a:hover {
+        color: #f66451;
+      }
+
     h1{
         max-width:8em;
         padding:0.5em 0 1em 0.5em;
@@ -95,7 +101,7 @@
     }
 
     section.tertiary h2 {
-        border-top: 2px solid #ebece9;
+        border-top: 2px solid #f66451;
         font-family: "lemongrass-caps", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -244,6 +250,7 @@
     button{
         background-color:#ebece9;
         font-size:1em;
+        padding: 0.5em; 
     }
     
 a.newsletter h2{
@@ -400,5 +407,44 @@ div.newsletter h2{
         section.secondary a p {
             flex:0 0 4em;
         }
+
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    
+    body {
+        background-color:#2D2D2A;
+    }
+    nav ul li a, figcaption, article.dark h2, article.dark p, div.home-container h2, div.home-container p, 
+    aside.main section h2, aside.main section p, footer p.footer, label, section.personal-info h3, section.interests h3{
+        color:#ebece9;
+    }
+
+    a h2.news, form section.image h2{
+        color:#f66451;
+    }
+
+   footer p.footer{
+        color:#2D2D2A;
+    }
+
+    
+    footer{
+        background-color:#ebece9;
+    }
+
+    h1 {  
+        background-image: url("logodark.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;  
+        }  
+
+        h1 img {  
+            opacity: 0;  
+            }  
+
+            aside, section.personal-info, section.interests{
+                background-color:#585854;
+            }
 
 }
